@@ -1,0 +1,11 @@
+product_code,manufacture,brand_name,generic_name,formulation,unit_size,unit_of_sale,units_per_case,label_language,cold_chain,controlled_drugs,serialized_stock,dangerous_goods,comments,status,categorie 1,categorie 2,categorie 3
+1,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,yes,no,yes,no,abc,1,iPhone,,home
+2,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,yes,no,yes,no,abc,1,Electric,Apple,watch
+3,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,yes,no,yes,no,abc,1,,Digital,smart
+4,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,yes,no,yes,no,abc,1,Mobile,Apple,Android
+5,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,yes,no,no,yes,abc,1,iPhone,iMac,home
+6,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,no,yes,no,yes,abc,1,Electric,Digital,
+7,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,yes,no,yes,no,abc,1,Mobile,Apple,iPhone
+8,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,yes,no,yes,no,abc,1,,mobile,home
+9,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,no,yes,no,yes,abc,1,iPhone,electric,watch
+10,abc,sdsvhsvsdv,sfsdfvzdfd,tablet,20,12,2,abcabc,no,yes,no,yes,abc,1,smart,,Android
