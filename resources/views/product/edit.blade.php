@@ -8,7 +8,7 @@
                 <div class="card-header">{{ __('Product') }}</div>
                 
                 <div class="card-body">
-                    <form method="POST" id="myForm" action="{{ route('product.update',[$product->id]) }}" enctype="multipart/form-data" >
+                    <form method="POST" id="myForm" name="myForm" action="{{ route('product.update',[$product->id]) }}" enctype="multipart/form-data" >
                         @method('PATCH')
                         @csrf
                         <div class="row">
@@ -435,8 +435,6 @@
                                         <br/>
                                         
                                         @include('product/product_attatchment')
-                                        
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -536,11 +534,13 @@
     
     $("#upload_input").change(function(){
         var form = $("#myForm")[0];
+        var method = document.forms['myForm']['_method'];
+        method.setAttribute('Value','POST');
         var formData = new FormData(form);
         $.ajax({
-            url : "{{ route('uploadAttatchment',$product->id) }}",
-            method : "POST",
             data : formData,
+            method : "POST",
+            url : "{{ route('uploadAttatchment',$product->id) }}",
             processData: false,
             contentType: false,
             success:function(data)
